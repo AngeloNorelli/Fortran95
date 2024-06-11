@@ -1,7 +1,7 @@
 # Prosty opis programów
 
 ## Program 3
-Program [`p3`](./p03) otwiera istniejący plik `data_1` i dodaje do niego nową linię z tekstem "witaj".
+Program [`p3`](./Zadania/p03/p3.f95) otwiera istniejący plik `data_1` i dodaje do niego nową linię z tekstem "witaj".
 
 ### Szczegóły działania
 1. **Otwieranie pliku**:
@@ -21,7 +21,7 @@ Program [`p3`](./p03) otwiera istniejący plik `data_1` i dodaje do niego nową 
 <br><br>
 
 ## Program 4
-Program [`p4`](./p04) odczytuje wartości z pliku `data_in` i wyświetla je na standardowym wyjściu w określonym formacie.
+Program [`p4`](./Zadania/p04/p4.f95) odczytuje wartości z pliku `data_in` i wyświetla je na standardowym wyjściu w określonym formacie.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -55,7 +55,7 @@ Program [`p4`](./p04) odczytuje wartości z pliku `data_in` i wyświetla je na s
 <br><br>
 
 ## Program 5
-Program [`p5`](./p05) wyświetla wartości zmiennych `i` i `k` w ramach dwóch zagnieżdżonych pętli `DO`. Program wypisuje pary liczb, gdzie `i` przyjmuje wartości od 1 do 10, a `k` od 1 do 12 z krokiem 5.
+Program [`p5`](./Zadania/p05/p5.f95) wyświetla wartości zmiennych `i` i `k` w ramach dwóch zagnieżdżonych pętli `DO`. Program wypisuje pary liczb, gdzie `i` przyjmuje wartości od 1 do 10, a `k` od 1 do 12 z krokiem 5.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -77,7 +77,7 @@ Program [`p5`](./p05) wyświetla wartości zmiennych `i` i `k` w ramach dwóch z
 <br><br>
 
 ## Program 6
-Program [`p6`](./p06) pobiera datę od użytkownika, wyodrębnia z niej miesiąc i sprawdza, czy miesiąc ten należy do wiosny, lata, czy żadnej z tych pór roku.
+Program [`p6`](./Zadania/p06/p6.f95) pobiera datę od użytkownika, wyodrębnia z niej miesiąc i sprawdza, czy miesiąc ten należy do wiosny, lata, czy żadnej z tych pór roku.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -106,7 +106,7 @@ Program [`p6`](./p06) pobiera datę od użytkownika, wyodrębnia z niej miesiąc
 <br><br>
 
 ## Program 7
-Program [`p7`](./p07) demonstruje manipulację łańcuchami znaków oraz odczyt i zapis danych od użytkownika. Program łączy i modyfikuje różne ciągi znaków, a następnie wyświetla wyniki na standardowym wyjściu.
+Program [`p7`](./Zadania/p07/p7.f95) demonstruje manipulację łańcuchami znaków oraz odczyt i zapis danych od użytkownika. Program łączy i modyfikuje różne ciągi znaków, a następnie wyświetla wyniki na standardowym wyjściu.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -141,7 +141,7 @@ Program [`p7`](./p07) demonstruje manipulację łańcuchami znaków oraz odczyt 
 <br><br>
 
 ## Program 8
-Program [`p8`](./p08) demonstruje użycie typów zdefiniowanych przez użytkownika (custom types) do przechowywania i manipulowania danymi osobowymi. Program tworzy dwie zmienne typu `person`, przypisuje im wartości, a następnie wyświetla i analizuje te dane.
+Program [`p8`](./Zadania/p08/p8.f95) demonstruje użycie typów zdefiniowanych przez użytkownika (custom types) do przechowywania i manipulowania danymi osobowymi. Program tworzy dwie zmienne typu `person`, przypisuje im wartości, a następnie wyświetla i analizuje te dane.
 
 ### Szczegóły działania
 1. **Definicja typu `person`**:
@@ -170,7 +170,7 @@ Program [`p8`](./p08) demonstruje użycie typów zdefiniowanych przez użytkowni
 <br><br>
 
 ## Program 9
-Program [`p9`](./p09) oblicza pierwiastek sześcienny z liczby podanej przez użytkownika. Program wykorzystuje funkcję `cube_root`, zdefiniowaną poza głównym blokiem programu, do wykonania obliczeń.
+Program [`p9`](./Zadania/p09/p9.f95) oblicza pierwiastek sześcienny z liczby podanej przez użytkownika. Program wykorzystuje funkcję `cube_root`, zdefiniowaną poza głównym blokiem programu, do wykonania obliczeń.
 
 ### Szczegóły działania
 1. **Deklaracje i interfejs funkcji**:
@@ -204,7 +204,7 @@ Program [`p9`](./p09) oblicza pierwiastek sześcienny z liczby podanej przez uż
 <br><br>
 
 ## Program 10
-Program [`p10`](./p10) demonstruje użycie pętli `DO` z różnymi wartościami początkowymi, końcowymi i przyrostami. W programie znajduje się kilka przykładów, które ilustrują, jak można kontrolować iterację w pętli `DO`.
+Program [`p10`](./Zadania/p10/p10.f95) demonstruje użycie pętli `DO` z różnymi wartościami początkowymi, końcowymi i przyrostami. W programie znajduje się kilka przykładów, które ilustrują, jak można kontrolować iterację w pętli `DO`.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -242,7 +242,7 @@ Program [`p10`](./p10) demonstruje użycie pętli `DO` z różnymi wartościami 
 <br><br>
 
 ## Program 11
-Program [`p11`](./p11) ilustruje działanie nieskończonej pętli `DO` z warunkiem wyjścia. Program wykonuje operację mnożenia zmiennej przez samą siebie, dopóki jej wartość nie będzie mniejsza niż określona stała epsilon. W trakcie obliczeń program sumuje wartości tej zmiennej.
+Program [`p11`](./Zadania/p11/p11.f95) ilustruje działanie nieskończonej pętli `DO` z warunkiem wyjścia. Program wykonuje operację mnożenia zmiennej przez samą siebie, dopóki jej wartość nie będzie mniejsza niż określona stała epsilon. W trakcie obliczeń program sumuje wartości tej zmiennej.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -273,7 +273,7 @@ Program [`p11`](./p11) ilustruje działanie nieskończonej pętli `DO` z warunki
 <br><br>
 
 ## Program 12
-Program [`p12`](./p12) oblicza sumę kolejnych liczb całkowitych od 1 do pewnej wartości granicznej. Program wykorzystuje pętlę `DO` do iteracji przez liczby całkowite, a także wykorzystuje instrukcje sterujące `exit` i `cycle` do kontroli przepływu pętli.
+Program [`p12`](./Zadania/p12/p12.f95) oblicza sumę kolejnych liczb całkowitych od 1 do pewnej wartości granicznej. Program wykorzystuje pętlę `DO` do iteracji przez liczby całkowite, a także wykorzystuje instrukcje sterujące `exit` i `cycle` do kontroli przepływu pętli.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -302,7 +302,7 @@ Program [`p12`](./p12) oblicza sumę kolejnych liczb całkowitych od 1 do pewnej
 <br><br>
 
 ## Opis ogólny
-Program [`p13`](./p13) demonstruje tworzenie i manipulowanie tablicami logicznymi, liczbami zespolonymi oraz tablicami znaków. Program zawiera dwie pętle `DO` do inicjalizacji i wyświetlania tablic.
+Program [`p13`](./Zadania/p13/p13.f95) demonstruje tworzenie i manipulowanie tablicami logicznymi, liczbami zespolonymi oraz tablicami znaków. Program zawiera dwie pętle `DO` do inicjalizacji i wyświetlania tablic.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -328,7 +328,7 @@ Program [`p13`](./p13) demonstruje tworzenie i manipulowanie tablicami logicznym
 <br><br>
 
 ## Program 15
-Program [`p15`](./p15) tworzy trzy trójwymiarowe tablice rzeczywiste o różnych wymiarach i przypisuje im stałe wartości. Następnie oblicza sumę dwóch z tych tablic i wyświetla wynik.
+Program [`p15`](./Zadania/p15/p15.f95) tworzy trzy trójwymiarowe tablice rzeczywiste o różnych wymiarach i przypisuje im stałe wartości. Następnie oblicza sumę dwóch z tych tablic i wyświetla wynik.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
@@ -348,7 +348,7 @@ Program [`p15`](./p15) tworzy trzy trójwymiarowe tablice rzeczywiste o różnyc
     - `stop`: Zatrzymanie wykonania programu.
 
 ## Program 16
-Program p16 jest niewielkim programem w języku Fortran, który demonstruje operacje na tablicach oraz obliczenia na liczbach zespolonych. Program inicjalizuje dwie trójwymiarowe tablice rzeczywiste oraz jedną tablicę liczb zespolonych, wykonuje na nich operacje matematyczne i wyświetla wyniki.
+Program [`p16`](./Zadania/p16/p16.f95) jest niewielkim programem w języku Fortran, który demonstruje operacje na tablicach oraz obliczenia na liczbach zespolonych. Program inicjalizuje dwie trójwymiarowe tablice rzeczywiste oraz jedną tablicę liczb zespolonych, wykonuje na nich operacje matematyczne i wyświetla wyniki.
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
