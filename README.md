@@ -352,25 +352,25 @@ Program p16 jest niewielkim programem w języku Fortran, który demonstruje oper
 
 ### Szczegóły działania
 1. **Deklaracje zmiennych**:
-    -`integer, parameter :: st = 8`: Stała określająca szerokość tablicy `z` i `c`.
-    -`integer :: wiersz, kolumna, r`: Zmienne iteracyjne używane w pętlach.
-    -`real, dimension(2:10, -30:30, 0:10) :: t, y, trazyy`: Trzy trójwymiarowe tablice rzeczywiste o różnych wymiarach.
-    -`complex, dimension(1:10, 2 + st) :: z, c`: Tablice liczb zespolonych o różnych wymiarach.
+    - `integer, parameter :: st = 8`: Stała określająca szerokość tablicy `z` i `c`.
+    - `integer :: wiersz, kolumna, r`: Zmienne iteracyjne używane w pętlach.
+    - `real, dimension(2:10, -30:30, 0:10) :: t, y, trazyy`: Trzy trójwymiarowe tablice rzeczywiste o różnych wymiarach.
+    - `complex, dimension(1:10, 2 + st) :: z, c`: Tablice liczb zespolonych o różnych wymiarach.
 
 2. **Inicjalizacja tablic**:
-    -`t = 2.0`: Przypisanie wartości `2.0` do wszystkich elementów tablicy `t`.
-    -`y = 3.0`: Przypisanie wartości `3.0` do wszystkich elementów tablicy `y`.
-    -`trazyy = t * y`: Obliczenie iloczynu elementów tablic `t` i `y` oraz przypisanie wyniku do tablicy `trazyy`.
+    - `t = 2.0`: Przypisanie wartości `2.0` do wszystkich elementów tablicy `t`.
+    - `y = 3.0`: Przypisanie wartości `3.0` do wszystkich elementów tablicy `y`.
+    - `trazyy = t * y`: Obliczenie iloczynu elementów tablic `t` i `y` oraz przypisanie wyniku do tablicy `trazyy`.
 
 3. **Operacje na tablicach zespolonych**:
-    -`z = (1.0, 0.0)`: Przypisanie liczby zespolonej `(1.0, 0.0)` do wszystkich elementów tablicy `z`.
+    - `z = (1.0, 0.0)`: Przypisanie liczby zespolonej `(1.0, 0.0)` do wszystkich elementów tablicy `z`.
     - Pętla `DO` zmienia wartości elementów tablicy z w zależności od iteracji.
-    -`c = (2.0, 0.0) * z + (1.0, 0.0)`: Obliczenie wyrażenia zespolonego `(2.0, 0.0) * z + (1.0, 0.0)` i przypisanie wyniku do tablicy `c`.
+    - `c = (2.0, 0.0) * z + (1.0, 0.0)`: Obliczenie wyrażenia zespolonego `(2.0, 0.0) * z + (1.0, 0.0)` i przypisanie wyniku do tablicy `c`.
 
 4. **Wyświetlanie wyników**:
-    -`print *, trazyy`: Wyświetlenie tablicy trazyy, która zawiera wynik mnożenia tablic `t` i `y`.
-    -`print *, c(1:3, 8:10)`: Wyświetlenie fragmentu tablicy `c` o wymiarach 3x3.
+    - `print *, trazyy`: Wyświetlenie tablicy trazyy, która zawiera wynik mnożenia tablic `t` i `y`.
+    - `print *, c(1:3, 8:10)`: Wyświetlenie fragmentu tablicy `c` o wymiarach 3x3.
     - Pętla `DO` wyświetla elementy tablicy `c` w wybranych wierszach i kolumnach.
 
 5. **Zakończenie programu**:
-    -`stop`: Zatrzymanie wykonania programu.
+    - `stop`: Zatrzymanie wykonania programu.
