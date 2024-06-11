@@ -347,7 +347,7 @@ Program [`p15`](./p15) tworzy trzy trójwymiarowe tablice rzeczywiste o różnyc
 5. **Zakończenie programu**:
     - `stop`: Zatrzymanie wykonania programu.
 
-## Opis ogólny
+## Program 16
 Program p16 jest niewielkim programem w języku Fortran, który demonstruje operacje na tablicach oraz obliczenia na liczbach zespolonych. Program inicjalizuje dwie trójwymiarowe tablice rzeczywiste oraz jedną tablicę liczb zespolonych, wykonuje na nich operacje matematyczne i wyświetla wyniki.
 
 ### Szczegóły działania
