@@ -10,7 +10,7 @@ Moduł `matrix_operations` zawiera zestaw funkcji do wykonywania operacji na mac
 * `transpose_matrix(mat)`: Zwraca transponowaną macierz `mat`.
 * `determinant_matrix(mat)`: Zwraca wyznacznik macierzy `mat` za pomocą rekurencyjnej metody.
 
-## Program główny matrix_operations_demo
+## Program główny `operacje_na_macierzach`
 * Definiuje dwie macierze `mat1` i `mat2`.
 * Wyświetla te macierze.
 * Wykonuje operacje dodawania, odejmowania, mnożenia oraz transponowania macierzy.
